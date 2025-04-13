@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+  <title>Beauty Blog</title>
+</head>
+<body>
+	<header>
+		<style> #banner{ width:100%;} </style>
+		<img id="banner" src="Banner BS.svg" alt="Programing">
+		<ul id="menu">
+			<li ><a id="logo" href="Trang chủ.html"><img src="Logo1.svg" width="194px" height="50px" alt="Programing" style="padding-top: 5px; "></a></li>
+			<li class="dropdown" style="padding-left: 100px;"><a href="Trang chủ.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Trang chủ</strong></a></li>
+			<li class="dropdown">
+				<a class="dropbtn" href="Chuyên mục Skincare.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Chuyên mục Skincare</strong></a>
+				<div class="dropdown-content">
+					<a href="Bài viết 1 - Nhận biết các loại da.html">Nhận biết các loại da</a>
+					<a href="Bài viết 2 - Skincare cho da mụn.html">Skincare cho da mụn</a>
+					<a href="Bài viết 3 - Skincare cho da dầu.html">Skincare cho da dầu</a>
+					<a href="Bài viết 4 - Skincare cho da khô.html">Skincare cho da khô</a>
+					<a href="Bài viết 5 - Skincare cho da thường.html">Skincare cho da thường</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a class="dropbtn" href="Chuyên mục Makeup.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Chuyên mục Makeup</strong></a>
+				<div class="dropdown-content">
+					<a href="Bài viết 6- Các bước trang điểm cơ bản.html">Các bước trang điểm cơ bản</a>
+					<a href="Bài viết 7 - Trang điểm mặt.html">Trang điểm mặt</a>
+					<a href="Bài viết 8 - Trang điểm mắt.html">Trang điểm mắt</a>
+					<a href="Bài viết 9 - Trang điểm môi.html">Trang điểm môi</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a class="dropbtn" href="Sản phẩm.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Sản phẩm</strong></a>
+				<div class="dropdown-content">
+					<div class="dropdown-content11">
+						<a href="Bài viết 13 - Beauty Skin.html">Beauty Skin</a>
+					</div>
+					<div class="dropdown-content22">
+						<a href="#">Beauty Face</a>
+							<div class="dropdown-content2">
+								<a href="Bài viết 10 - Beauty Face - Trang điểm mặt.html">Trang điểm mặt</a>
+								<a href="Bài viết 11 - Beauty Face - Trang điểm mắt.html">Trang điểm mắt</a>
+								<a href="Bài viết 12 - Beauty Face - Trang điểm môi.html">Trang điểm môi</a>
+							</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<style>
+			#menu{
+				list-style-type: none;
+				margin: 0px;
+				padding: 0px;	
+				overflow: hidden;
+				background-color: #ab5c72;
+				display: flex;
+			}
+			li a, .dropbtn {
+				display: inline-block;
+				
+				text-align: center;
+				padding: 10px 15px;
+				text-decoration: none;
+			}
+			.dropdown{
+				display: inline-block;
+				padding: 20px 40px 20px 40px;
+			}
+			.dropdown-content{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 120px;
+				z-index: 1;
+			}
+			.dropdown-content1{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 120px;
+				z-index: 1;
+				left: 120px;
+				top: 0px;
+			}
+			.dropdown-content2{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 120px;
+				z-index: 1;
+				left: 130px;
+				top: 0px;
+			}
+			.dropdown-content a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content1 a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content2 a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content a:hover{background-color: #f2c4c4;}
+			.dropdown:hover .dropdown-content {display: block;}
+			.dropdown .dropdown-content:hover .dropdown-content11{display: block;}
+			.dropdown .dropdown-content:hover .dropdown-content22{display: block;}
+			.dropdown .dropdown-content .dropdown-content11:hover .dropdown-content1 {display: block;}
+			.dropdown .dropdown-content .dropdown-content22:hover .dropdown-content2 {display: block;}
+		</style>
+		<br>
+	</header>
+	<main>
+		<!--<h1 style="font-family:NotoSerifDisplay-Condensed; font-size:45px; color:#502d25" align="center" >Chuyên mục Makeup</h1>-->
+		<div id="wrapper">
+			<div id="slidebar">
+				
+				<ul id="danh-muc" style="font-family:NotoSerifDisplay-Condensed; font-size:20px; color:#502d25; padding-left:15px;" align="left" >
+				<h3 style="padding-left: 10px;">Danh mục sản phẩm</h3>
+					<li class="bai-viet"><a href="#bai-viet-1">Beauty Skin</a>
+                        <div class="danh-muc-con"><i>
+                            <a href="#bai-viet-1">Tẩy trang</a><br>
+                            <a href="#bai-viet-1-1">Dưỡng ẩm</a><br>
+                            <a href="#bai-viet-1-2">Toner</a><br>
+                            <a href="#bai-viet-1-3">Tẩy tế bào chết</a>
+                        </i></div>
+                    </li>
+					<li class="bai-viet"><a href="#bai-viet-2">Beauty Face</a>
+                        <div class="danh-muc-con"><i>
+                            <a href="Bài viết 10 - Beauty Face - Trang điểm mặt.html">Trang điểm mặt</a><br>
+                            <a href="Bài viết 11 - Beauty Face - Trang điểm mắt.html">Trang điểm mắt</a><br>
+                            <a href="Bài viết 12 - Beauty Face - Trang điểm môi.html">Trang điểm môi</a><br>
+                        </i></div>
+                    </li>
+				</ul>
+			</div>		
+			<div id="noi-dung">
+				<h2 align="center">Beauty Skin</h2>
+                <div id="bai-viet-1">
+                    <h3>Tẩy trang</h3>
+                    <div style="display: flex;">
+						<div>
+							<a target="_blank" href="https://shopee.vn/N%C6%B0%E1%BB%9Bc-t%E1%BA%A9y-trang-va%CC%80-l%C3%A0m-s%E1%BA%A1ch-s%C3%A2u-3-in-1-L'Oreal-Paris-Micellar-Water-400ml-i.37251933.591989399?sp_atk=169803b8-9575-476c-92ce-f802a99e44a7&xptdk=169803b8-9575-476c-92ce-f802a99e44a7">
+								<img style="width: 282px; height: 282px;" src="https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2yt3br12b5y06.webp">
+							</a>
+						</div>
+						<div style="padding-left: 10px; margin: 0px; width: 100%;">
+							<div >
+								<a style="font-size: 25px;" target="_blank" href="https://shopee.vn/N%C6%B0%E1%BB%9Bc-t%E1%BA%A9y-trang-va%CC%80-l%C3%A0m-s%E1%BA%A1ch-s%C3%A2u-3-in-1-L'Oreal-Paris-Micellar-Water-400ml-i.37251933.591989399?sp_atk=169803b8-9575-476c-92ce-f802a99e44a7&xptdk=169803b8-9575-476c-92ce-f802a99e44a7">
+									Nước tẩy trang và làm sạch sâu 3-in-1 L'Oreal Paris Micellar Water 400ml
+								</a>
+							<div style="display: flex; margin-top: -25px; margin-bottom: -25px;" vertical-align="middle">
+								<p style="font-size: 25px; color: #ffc020; " >&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+							</div>
+							</div>
+							<p style="padding-left: 10px; font-size: 18px; margin: 0px;"><i>
+								Tẩy sạch tốt cả trang điểm đậm, chống nước.<br>
+                                Công thức dịu nhẹ, không chứa cồn.<br>
+                                Làm dịu, cấp ẩm cho da.<br>
+                                Có thể sử dụng cả vùng mắt, môi.<br>
+                                Phù hợp cả da nhạy cảm.
+							</i></p><br>
+							<p style="padding: 10px; font-size: 25px; background-color: #f2c4c4; margin: 0px;" align="right">
+								Giá ưu đãi:	<strong>157.000đ</strong>
+							</p>
+							<!--<a  style="padding-top: 5px;"target="_blank" href="https://shopee.vn/Kem-ch%E1%BB%91ng-n%E1%BA%AFng-BEPLAIN-Sunmuse-lai-V%E1%BA%ADt-L%C3%BD-Ho%C3%A1-H%E1%BB%8Dc-N%C3%A2ng-Tone-Hi%E1%BB%87u-ch%E1%BB%89nh-da-SPF-50-PA-50ml-i.468195803.23640493734">
+								Mua ngay
+							</a>-->
+						</div>
+					</div>
+                    <h3></h3>
+                    <div style="display: flex;">
+						<div>
+							<a target="_blank" href="https://shopee.vn/-%C4%90%C6%A0N-349K-T%E1%BA%B6NG-2-QU%C3%80-DEAL-GI%E1%BB%9AI-H%E1%BA%A0N-N%C6%B0%E1%BB%9Bc-T%E1%BA%A9y-Trang-Bioderma-D%C3%A0nh-Cho-Da-D%E1%BA%A7u-H%E1%BB%97n-H%E1%BB%A3p-S%C3%A9bium-H2O-Hasaki-ch%C3%ADnh-h%C3%A3ng-i.18644537.9649836742?sp_atk=591445b9-2544-42be-b491-c029f2dfb86f&xptdk=591445b9-2544-42be-b491-c029f2dfb86f">
+								<img style="width: 282px; height: 282px;" src="https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2hlwcvbvkj8f0.webp">
+							</a>
+						</div>
+						<div style="padding-left: 10px; margin: 0px; width: 100%;">
+							<div >
+								<a style="font-size: 25px;" target="_blank" href="https://shopee.vn/-%C4%90%C6%A0N-349K-T%E1%BA%B6NG-2-QU%C3%80-DEAL-GI%E1%BB%9AI-H%E1%BA%A0N-N%C6%B0%E1%BB%9Bc-T%E1%BA%A9y-Trang-Bioderma-D%C3%A0nh-Cho-Da-D%E1%BA%A7u-H%E1%BB%97n-H%E1%BB%A3p-S%C3%A9bium-H2O-Hasaki-ch%C3%ADnh-h%C3%A3ng-i.18644537.9649836742?sp_atk=591445b9-2544-42be-b491-c029f2dfb86f&xptdk=591445b9-2544-42be-b491-c029f2dfb86f">
+									Nước Tẩy Trang Bioderma Dành Cho Da Dầu & Hỗn Hợp
+								</a>
+							<div style="display: flex; margin-top: -25px; margin-bottom: -25px;" vertical-align="middle">
+								<p style="font-size: 25px; color: #ffc020; " >&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+							</div>
+							</div>
+							<p style="padding-left: 10px; font-size: 18px; margin: 0px;"><i>
+								Luôn ưu tiên về đặc tính làm sạch và dịu nhẹ đối với từng loại da.<br>
+                                Được dựa trên công nghệ micellar, nhưng các thành phần và công thức 
+                                độc quyền của Sensibio H2O là giải pháp thay thế lý tưởng cho sự kết hợp 
+                                giữa nước tẩy trang + nước hoa hồng, vừa tiết kiệm, vừa hiệu quả.<br>
+                                Phù hợp với mọi loại da.
+							</i></p><br>
+							<p style="padding: 10px; font-size: 25px; background-color: #f2c4c4; margin: 0px;" align="right">
+								Giá ưu đãi:	<strong>189.000đ</strong>
+							</p>
+							<!--<a  style="padding-top: 5px;"target="_blank" href="https://shopee.vn/Kem-ch%E1%BB%91ng-n%E1%BA%AFng-BEPLAIN-Sunmuse-lai-V%E1%BA%ADt-L%C3%BD-Ho%C3%A1-H%E1%BB%8Dc-N%C3%A2ng-Tone-Hi%E1%BB%87u-ch%E1%BB%89nh-da-SPF-50-PA-50ml-i.468195803.23640493734">
+								Mua ngay
+							</a>-->
+						</div>
+					</div>
+                </div>
+                <div id="bai-viet-1-1">
+                    <h3>Dưỡng ẩm</h3>
+                    <div style="display: flex;">
+						<div>
+							<a target="_blank" href="https://shopee.vn/Kem-d%C6%B0%E1%BB%A1ng-%E1%BA%A9m-cho-da-kh%C3%B4-Neutrogena%C2%AE-Hydro-Boost-Hyaluronic-Acid-Nourishing-Cream-(50g)-i.78546729.7321412151?sp_atk=4388cdc9-ca3b-4730-9e4a-1536f943c688&xptdk=4388cdc9-ca3b-4730-9e4a-1536f943c688">
+								<img style="width: 282px; height: 282px;" src="https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-m2ugycdhni6264.webp">
+							</a>
+						</div>
+						<div style="padding-left: 10px; margin: 0px; width: 100%;">
+							<div >
+								<a style="font-size: 25px;" target="_blank" href="https://shopee.vn/Kem-d%C6%B0%E1%BB%A1ng-%E1%BA%A9m-cho-da-kh%C3%B4-Neutrogena%C2%AE-Hydro-Boost-Hyaluronic-Acid-Nourishing-Cream-(50g)-i.78546729.7321412151?sp_atk=4388cdc9-ca3b-4730-9e4a-1536f943c688&xptdk=4388cdc9-ca3b-4730-9e4a-1536f943c688">
+									Kem dưỡng ẩm cho da khô Neutrogena® Hydro Boost Hyaluronic Acid Nourishing Cream (50g)
+								</a>
+							<div style="display: flex; margin-top: -25px; margin-bottom: -25px;" vertical-align="middle">
+								<p style="font-size: 25px; color: #ffc020; " >&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+							</div>
+							</div>
+							<p style="padding-left: 10px; font-size: 18px; margin: 0px;"><i>
+								Kết cấu dạng kem mướt mịn.<br>
+                                Thấm nhanh - Không nhờn rít - Không gây mụn.<br>
+                                Phù hợp với làn da & khí hậu Việt Nam.
+							</i></p><br>
+							<p style="padding: 10px; font-size: 25px; background-color: #f2c4c4; margin: 0px;" align="right">
+								Giá ưu đãi:	<strong>330.000đ</strong>
+							</p>
+							<!--<a  style="padding-top: 5px;"target="_blank" href="https://shopee.vn/Kem-ch%E1%BB%91ng-n%E1%BA%AFng-BEPLAIN-Sunmuse-lai-V%E1%BA%ADt-L%C3%BD-Ho%C3%A1-H%E1%BB%8Dc-N%C3%A2ng-Tone-Hi%E1%BB%87u-ch%E1%BB%89nh-da-SPF-50-PA-50ml-i.468195803.23640493734">
+								Mua ngay
+							</a>-->
+						</div>
+					</div>
+                </div>
+                <div id="bai-viet-1-2">
+                    <h3>Toner</h3>
+                    <div style="display: flex;">
+						<div>
+							<a target="_blank" href="https://shopee.vn/-Nh%E1%BA%ADp-COSDK4-gi%E1%BA%A3m-20K-%C4%91%C6%A1n-199K-N%C6%B0%E1%BB%9Bc-hoa-h%E1%BB%93ng-Dear-Klairs-Supple-Preparation-Unscented-Toner-180ml-i.158647903.2403837026">
+								<img style="width: 282px; height: 282px;" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lv4yri9ngq6y5b.webp">
+							</a>
+						</div>
+						<div style="padding-left: 10px; margin: 0px; width: 100%;">
+							<div >
+								<a style="font-size: 25px;" target="_blank" href="https://shopee.vn/-Nh%E1%BA%ADp-COSDK4-gi%E1%BA%A3m-20K-%C4%91%C6%A1n-199K-N%C6%B0%E1%BB%9Bc-hoa-h%E1%BB%93ng-Dear-Klairs-Supple-Preparation-Unscented-Toner-180ml-i.158647903.2403837026">
+									Nước hoa hồng Dear, Klairs Supple Preparation Unscented Toner 180ml
+								</a>
+							<div style="display: flex; margin-top: -25px; margin-bottom: -25px;" vertical-align="middle">
+								<p style="font-size: 25px; color: #ffc020; " >&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+							</div>
+							</div>
+							<p style="padding-left: 10px; font-size: 18px; margin: 0px;"><i>
+                                Cấp ẩm tức thì cho da, làm dịu làn da khô căng, kích ứng.<br>
+                                Cân bằng độ pH trên da: tăng hiệu quả của quá trình chăm sóc da hàng ngày.<br>
+                                Kết cấu sản phẩm là dạng lỏng khi thoa lên da bạn sẽ cảm thấy da được cung cấp một lượng nước và độ ẩm rất lớn.                                
+							</i></p><br>
+							<p style="padding: 10px; font-size: 25px; background-color: #f2c4c4; margin: 0px;" align="right">
+								Giá ưu đãi:	<strong>304.000đ</strong>
+							</p>
+							<!--<a  style="padding-top: 5px;"target="_blank" href="https://shopee.vn/Kem-ch%E1%BB%91ng-n%E1%BA%AFng-BEPLAIN-Sunmuse-lai-V%E1%BA%ADt-L%C3%BD-Ho%C3%A1-H%E1%BB%8Dc-N%C3%A2ng-Tone-Hi%E1%BB%87u-ch%E1%BB%89nh-da-SPF-50-PA-50ml-i.468195803.23640493734">
+								Mua ngay
+							</a>-->
+						</div>
+					</div>
+                </div>
+                <div id="bai-viet-1-3">
+                    <h3>Tẩy tế bào chết</h3>
+                    <div style="display: flex;">
+						<div>
+							<a target="_blank" href="https://shopee.vn/T%E1%BA%A9y-da-ch%E1%BA%BFt-m%E1%BA%B7t-c%C3%A0-ph%C3%AA-%C4%90%E1%BA%AFk-L%E1%BA%AFk-Cocoon-cho-l%C3%A0n-da-m%E1%BB%81m-m%E1%BA%A1i-r%E1%BA%A1ng-r%E1%BB%A1-150ml-i.175753395.6067666440?sp_atk=a051529a-5c46-4d70-8204-7464e6a2773c&xptdk=a051529a-5c46-4d70-8204-7464e6a2773c">
+								<img style="width: 282px; height: 282px;" src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2w9or69rttmab.webp">
+							</a>
+						</div>
+						<div style="padding-left: 10px; margin: 0px; width: 100%;">
+							<div >
+								<a style="font-size: 25px;" target="_blank" href="https://shopee.vn/T%E1%BA%A9y-da-ch%E1%BA%BFt-m%E1%BA%B7t-c%C3%A0-ph%C3%AA-%C4%90%E1%BA%AFk-L%E1%BA%AFk-Cocoon-cho-l%C3%A0n-da-m%E1%BB%81m-m%E1%BA%A1i-r%E1%BA%A1ng-r%E1%BB%A1-150ml-i.175753395.6067666440?sp_atk=a051529a-5c46-4d70-8204-7464e6a2773c&xptdk=a051529a-5c46-4d70-8204-7464e6a2773c">
+									Tẩy da chết mặt cà phê Đắk Lắk Cocoon cho làn da mềm mại & rạng rỡ 150ml
+								</a>
+							<div style="display: flex; margin-top: -25px; margin-bottom: -25px;" vertical-align="middle">
+								<p style="font-size: 25px; color: #ffc020; " >&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+								<p style="font-size: 25px; color: #ffc020;">&#9733;</p>
+							</div>
+							</div>
+							<p style="padding-left: 10px; font-size: 18px; margin: 0px;"><i>
+								Làm sạch da chết trên mặt.<br>
+                                Mang lại làn da mịn màng ngay sau lần đầu sử dụng.<br>
+                                Giúp da sáng mịn, đều màu.
+							</i></p><br>
+							<p style="padding: 10px; font-size: 25px; background-color: #f2c4c4; margin: 0px;" align="right">
+								Giá ưu đãi:	<strong>154.000đ</strong>
+							</p>
+							<!--<a  style="padding-top: 5px;"target="_blank" href="https://shopee.vn/Kem-ch%E1%BB%91ng-n%E1%BA%AFng-BEPLAIN-Sunmuse-lai-V%E1%BA%ADt-L%C3%BD-Ho%C3%A1-H%E1%BB%8Dc-N%C3%A2ng-Tone-Hi%E1%BB%87u-ch%E1%BB%89nh-da-SPF-50-PA-50ml-i.468195803.23640493734">
+								Mua ngay
+							</a>-->
+						</div>
+					</div>
+                </div>
+				<br>
+			</div> 
+		</div>
+	</main>
+    <a href="#banner"><p style="font-size: 25px; background-color: #f8eeec; position: fixed; top: 85%; left: 95%;">&#128285;</p></a>
+    <hr>
+	<div id="chuyen-tab" >
+		<a style="padding: 10px;" href="Sản phẩm.html">1</a>
+		<a style="padding: 10px; background-color: #f2c4c4;" href="Bài viết 13 - Beauty Skin.html">2</a>
+		<a style="padding: 10px;" href="Bài viết 10 - Beauty Face - Trang điểm mặt.html">3</a>
+        <a style="padding: 10px;" href="Bài viết 11 - Beauty Face - Trang điểm mắt.html">4</a>
+        <a style="padding: 10px;" href="Bài viết 12 - Beauty Face - Trang điểm môi.html">5</a>
+	</div>
+	<br>
+	<footer>
+		<div id="chan-trang">
+			<div id="gioi-thieu">
+				<p style="font-size: 25px;"><strong>Giới thiệu</strong></p>
+				<img width="194px" height="50px" src="Logo.svg" alt="Programing">
+				<p>Không gian trực tuyến dành cho những ai đam mê làm đẹp. Chúng tôi tin rằng làm đẹp không chỉ là bề ngoài, mà còn là cách để mỗi người phụ nữ cảm nhận giá trị của bản thân, nuôi dưỡng sự tự tin và niềm vui trong cuộc sống.</p>
+			</div>
+			<div style="padding-left: 20px;">
+				<p style="font-size: 25px;"><strong>Liên hệ với chúng tôi</strong></p>
+				<div id="lien-he" style="display: flex;">
+					<a href="https://facebook.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon fb.png"></a>
+					<a href="https://instagram.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon ig.png"></a>
+					<a href="https://youtube.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon yt.png"></a>
+				</div>
+				<div style="display: flex;">
+					<img style="height: 30px; width: 30px; padding: 5px;" src="icon dt.png">
+					<p>0987.654.321</p>
+				</div>
+				<div style="display: flex;">
+					<img style="height: 30px; width: 30px; padding: 5px;" src="email.png">
+					<p>ptttrang7070@gmail.com</p>
+				</div>
+			</div>
+			<div id="dia-chi" style="padding-left: 30px;">
+				<p style="font-size: 25px;"><strong>Địa chỉ</strong></p>
+				<div style="display: flex; padding-top: 90px; ">
+				<img style="height: 30px; width: 30px; padding: 5px;" src="diachi.png">
+				<p>Trường THPT chuyên Nguyễn Chí Thanh</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p align="center";>Bản quyền © 2024 Trang web của tôi. Mọi quyền được bảo lưu.</p>
+		</div>
+		
+	</footer>
+	<div class="cursor"></div>
+	<div class="cursor2"></div>
+	<script>
+		var cursor = document.querySelector('.cursor')
+		var cursor2 = document.querySelector('.cursor2')
+
+		document.addEventListener('mousemove' , function(e){
+			cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY  + "px;";
+		});
+	</script>
+	<style>
+		.cursor{
+		position: fixed;
+		width: 30px;
+		height: 30px;
+		border: 1px solid salmon;
+		border-radius: 50%;
+		left: 0;
+		top: 0;
+		transition: 0.1s;
+		transform: translate(-50%, -50%); /*trục x, trục y - ra giữa*/
+		pointer-events: none;
+		z-index: 1000;	/*hiển thị trên các phần tử khác*/
+	}
+	.cursor2{
+		position: fixed;
+		width: 8px;
+		height: 8px;
+		background: #edb1b3;
+		border-radius: 50%;
+		left: 0;
+		top: 0;
+		transition: 0.15s;
+		transform: translate(-50%, -50%); /*trục x, trục y - ra giữa*/
+		pointer-events: none;	
+		z-index: 1000;	/*hiển thị trên các phần tử khác*/
+	}
+	body{
+		background-color: #f8eeec;
+	}
+	main{
+		max-width: 100%;
+		margin: 0px auto;
+	}
+	#wrapper{
+		display: flex;
+	}
+	hr{
+		color: white; 
+		background: white;
+		border: 0;
+		height: 1px;
+	}
+	a{
+		color:#ab5c72;
+		text-decoration: none;
+	}
+	#slidebar{
+		border: 0px solid #502d25;
+		padding-left: 5px;
+		width: 20%;
+	}
+	#danh-muc{
+		list-style-type: none;
+		position: sticky;
+			top: 20px;
+	}
+    .danh-muc-con{
+        padding-left: 10px;
+        font-size: 18px;
+    }
+	#noi-dung{
+		padding-right: 5px;
+		padding-left: 10px;
+		width: 79%;
+		font-size: 20px;
+	}
+    .bai-viet{
+		color: #502d25;        
+	}
+    #bai-viet-2{
+	}
+	.tieu-de-bai{
+		color: #502d25;
+	}
+	#chan-trang{
+		background-color: #fbd1d1;
+		display: flex;
+		padding-left: 30px;
+		padding-right: 30px;
+		color: #502d25;
+
+	}
+	#gioi-thieu{
+		max-width: 40%;	
+		}
+    #chuyen-tab{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #chuyen-tab a:hover{
+        display: inline-block;
+        background-color: #f2c4c4;
+    }
+	</style>
+</body>
+</html>

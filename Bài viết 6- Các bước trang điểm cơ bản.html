@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty Blog</title>
+</head>
+<body>
+	<header>
+		<style> #banner{ width:100%;} </style>
+		<img id="banner" src="Header.svg" alt="Programing">
+		<a href="#banner"><p style="font-size: 25px; background-color: #f8eeec; position: fixed; top: 85%; left: 95%;">&#128285;</p></a>
+		<div>
+			<ul id="menu">
+				<li ><a id="logo" href="Trang chủ.html"><img src="Logo1.svg" width="194px" height="50px" alt="Programing" style="padding-top: 5px; "></a></li>
+				<li class="dropdown" style="padding-left: 100px;"><a href="Trang chủ.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Trang chủ</strong></a></li>
+				<li class="dropdown">
+					<a class="dropbtn" href="Chuyên mục Skincare.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Chuyên mục Skincare</strong></a>
+					<div class="dropdown-content">
+						<a href="Bài viết 1 - Nhận biết các loại da.html">Nhận biết các loại da</a>
+						<a href="Bài viết 2 - Skincare cho da mụn.html">Skincare cho da mụn</a>
+						<a href="Bài viết 3 - Skincare cho da dầu.html">Skincare cho da dầu</a>
+						<a href="Bài viết 4 - Skincare cho da khô.html">Skincare cho da khô</a>
+						<a href="Bài viết 5 - Skincare cho da thường.html">Skincare cho da thường</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn" href="Chuyên mục Makeup.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Chuyên mục Makeup</strong></a>
+					<div class="dropdown-content">
+						<a href="Bài viết 6- Các bước trang điểm cơ bản.html">Các bước trang điểm cơ bản</a>
+						<a href="Bài viết 7 - Trang điểm mặt.html">Trang điểm mặt</a>
+						<a href="Bài viết 8 - Trang điểm mắt.html">Trang điểm mắt</a>
+						<a href="Bài viết 9 - Trang điểm môi.html">Trang điểm môi</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn" href="Sản phẩm.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Sản phẩm</strong></a>
+					<div class="dropdown-content">
+						<div class="dropdown-content11">
+							<a href="Bài viết 13 - Beauty Skin.html">Beauty Skin</a>
+						</div>
+						<div class="dropdown-content22">
+							<a href="#">Beauty Face</a>
+								<div class="dropdown-content2">
+									<a href="Bài viết 10 - Beauty Face - Trang điểm mặt.html">Trang điểm mặt</a>
+									<a href="Bài viết 11 - Beauty Face - Trang điểm mắt.html">Trang điểm mắt</a>
+									<a href="Bài viết 12 - Beauty Face - Trang điểm môi.html">Trang điểm môi</a>
+								</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<style>
+			#menu{
+				list-style-type: none;
+				margin: 0px;
+				padding: 0px;	
+				overflow: hidden;
+				background-color: #ab5c72;
+				display: flex;
+			}
+			.dropbtn {
+				display: inline-block;
+				
+				
+				text-decoration: none;
+			}
+			.dropdown{
+				display: inline-block;
+				padding: 20px 40px 20px 40px;
+			}
+			.dropdown-content{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 120px;
+				z-index: 1;
+			}
+			.dropdown-content1{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 120px;
+				z-index: 1;
+				left: 120px;
+				top: 0px;
+			}
+			.dropdown-content2{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 130px;
+				z-index: 1;
+				left: 120px;
+				top: 0px;
+			}
+			.dropdown-content a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content1 a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content2 a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content a:hover{background-color: #f2c4c4;}
+			.dropdown:hover .dropdown-content {display: block;}
+			.dropdown .dropdown-content:hover .dropdown-content11{display: block;}
+			.dropdown .dropdown-content:hover .dropdown-content22{display: block;}
+			.dropdown .dropdown-content .dropdown-content11:hover .dropdown-content1 {display: block;}
+			.dropdown .dropdown-content .dropdown-content22:hover .dropdown-content2 {display: block;}
+		</style>
+		<br>
+	</header>
+	<main>
+		<div style="padding: 20px;">
+			<br>
+		</div>
+		
+		<div id="wrapper">
+			<div class="slide-bar">
+					<ul class="sticky" id="muc-luc" style="font-family:NotoSerifDisplay-Condensed; font-size:20px; text-align: left;">
+						<p style="font-family:NotoSerifDisplay-Condensed; font-size:25px; padding-bottom: -10px;"><strong>Mục lục</strong></p>
+						<li><a href="#buoc-1">Bước 1: Thoa kem lót</a></li>
+						<li><a href="#buoc-2">Bước 2: Thoa kem nền</a></li>
+						<li><a href="#buoc-3">Bước 3: Che khuyết điểm</a></li>
+						<li><a href="#buoc-4">Bước 4: Phấn phủ</a></li>
+						<li><a href="#buoc-5">Bước 5: Vẽ chân mày</a></li>
+						<li><a href="#buoc-6">Bước 6: Kẻ eyeliner</a></li>
+						<li><a href="#buoc-7">Bước 7: Phấn mắt</a></li>
+						<li><a href="#buoc-8">Bước 8: Chuốt mascara</a></li>
+						<li><a href="#buoc-9">Bước 9: Thoa son môi</a></li>
+						<li><a href="#buoc-10">Bước 10: Má hồng</a></li>
+						<li><a href="#buoc-11">Bước 11: Xịt khoáng</a></li>
+						<br>
+					</ul>
+			</div>
+			<div id="noi-dung">
+				<div><img src="Picture/hình 21.jpeg" width="100%" alt="Programing" ></div>
+					<h2>Các bước makeup cơ bản</h2>
+					
+				<div id="buoc-1">
+					<h4>Bước 1: Thoa kem lót</h4>					
+					<img style="width: 100%;" src="Picture/hình 63.jpeg">
+                    <p>
+                        Kem lót là một bước quan trọng không thể thiếu trong quy trình trang điểm, 
+                        giúp tạo ra một lớp nền mịn màng và đồng đều, làm cho makeup bám lâu hơn và 
+                        giúp da trở nên mềm mại hơn. Khi áp dụng kem lót, bạn đang tạo ra một bức 
+                        tường bảo vệ nhẹ nhàng giữa làn da và lớp makeup, giảm thiểu tác động của các 
+                        sản phẩm trang điểm lên da.<br>
+                        Khi áp dụng kem lót, hãy sử dụng một lượng vừa đủ và phân bổ đều lên toàn bộ 
+                        khuôn mặt, từ trán, mũi, cằm đến các vùng má và cằm. Massage nhẹ nhàng để kem 
+                        lót thẩm thấu đều và tạo ra một bề mặt mịn màng. Sau khi kem lót đã được thẩm 
+                        thấu hoàn toàn, bạn có thể tiếp tục với các bước trang điểm tiếp theo để tạo 
+                        ra một lớp nền hoàn hảo và bền màu.
+                    </p>
+				</div>
+                <div id="buoc-2">
+					<h4>Bước 2: Thoa kem nền</h4>
+					<img style="width: 100%;" src="Picture/hình 64.jpeg">
+                    <p>
+                        Kem nền đóng vai trò quan trọng nhất trong quá trình trang điểm cơ bản. Thường 
+                        xuyên có sự nhầm lẫn giữa kem lót và kem nền, hoặc nhiều người tưởng rằng chúng 
+                        là một và chỉ chọn sử dụng một trong hai, dẫn đến việc sử dụng không đúng thứ tự.<br>
+                        Kem nền được áp dụng sau khi đã sử dụng kem lót. Đây là bước quyết định đến kết 
+                        quả cuối cùng của lớp nền, vì nó là lớp makeup hiển thị rõ nhất và quyết định 
+                        liệu lớp nền có đều màu và mịn màng hay không.<br>
+                        Khi chọn kem nền, bạn nên chọn màu sát với tone da hoặc sáng hơn da thật khoảng 
+                        1 tone. Khi thoa kem nền, chỉ cần lấy một lượng kem vừa đủ, chấm lên 5 điểm cơ 
+                        bản trên khuôn mặt: trán, hai má, cằm và mũi. Sau đó, sử dụng bông hoặc mút trang 
+                        điểm để tán đều kem ra những vị trí xung quanh. Hãy tán và dặm nhẹ nhàng để kem 
+                        được phân phối đều và mỏng nhất có thể.
+
+                    </p>
+				</div>
+                <div id="buoc-3">
+					<h4>Bước 3: Che khuyết điểm</h4>
+					<img style="width: 100%;" src="Picture/hình 68.jpeg">
+                    <p>
+                        Kem che khuyết điểm không thuộc danh sách mỹ phẩm bắt buộc trong các bước trang điểm 
+                        cơ bản. Tuy nhiên, trong nhiều trường hợp, dù đã sử dụng kem lót và kem nền nhưng vẫn 
+                        còn những khuyết điểm trên khuôn mặt. Đặc biệt, các vết thâm nám do mụn, hoặc các vết 
+                        thâm quanh mắt thường khó che phủ hoàn toàn bằng kem nền. Vì vậy, việc sử dụng kem che 
+                        khuyết điểm là cần thiết để cải thiện những vấn đề này.<br>
+                        Trong quá trình sử dụng kem che khuyết điểm, bạn không nên dùng mút hoặc bông như hai 
+                        loại trang điểm trước. Thay vào đó, hãy sử dụng cọ để chấm một lượng nhỏ kem lên vùng 
+                        có khuyết điểm và sau đó tán đều. Đảm bảo rằng màu kem che khuyết điểm hòa hợp với lớp 
+                        nền trước đó để đạt được kết quả trang điểm tự nhiên nhất.
+                    </p>
+				</div>
+                <div id="buoc-4">
+					<h4>Bước 4: Phấn phủ</h4>
+					<img style="width: 100%;" src="Picture/hình 69.jpeg">
+                    <p>
+                        Đánh phấn phủ thường được gọi là bước “khóa nền trang điểm”, ý nghĩa là phấn phủ sẽ tạo 
+                        ra một lớp bảo vệ cho lớp kem lót và kem nền đã được áp dụng trước đó. Đây là bước cuối 
+                        cùng của quy trình trang điểm nền cho da mặt.<br>
+                        Phấn phủ thường có dạng bột, và ngoài việc tạo ra lớp bảo vệ, chúng còn giúp da mặt cảm 
+                        thấy khô thoáng hơn bằng cách hấp thụ dầu tiết ra, từ đó giảm ảnh hưởng đến lớp nền trang 
+                        điểm.<br>
+                        Trong quá trình sử dụng phấn phủ, việc sử dụng cọ là lựa chọn phổ biến nhất. Sử dụng cọ 
+                        để lấy một lượng phấn phủ vừa đủ, nhẹ nhàng gõ nhẹ vào lọ phấn để loại bỏ phần thừa. Đánh 
+                        phấn nhẹ nhàng và rải đều trên da, tránh miết hoặc đè mạnh cọ, vì điều này có thể làm cho 
+                        phấn không đều và dẫn đến tình trạng da cộm phấn và hiện vân phấn, làm mất đi sự tự nhiên 
+                        của lớp trang điểm.
+                    </p>
+				</div>
+                <div id="buoc-5">
+					<h4>Bước 5: Vẽ chân mày</h4>
+					<img style="width: 100%;" src="Picture/hình 71.jpeg">
+                    <p>
+                        Nhiều phụ nữ thường mất tự tin với lông mày khi chúng ngắn, mờ hoặc thưa. Tuy nhiên, với 
+                        sự ra đời của chì kẻ chân mày, vấn đề này không còn là mối lo lớn nữa. Điều tiện lợi là 
+                        hiện nay có sẵn nhiều màu sắc khác nhau cho chì kẻ chân mày, cho phép bạn thoải mái lựa 
+                        chọn sao cho phù hợp với màu tóc của mình.<br>
+                        Phương pháp kẻ chân mày thường phụ thuộc vào tình trạng cụ thể của lông mày của bạn. Nếu 
+                        lông mày đã đậm, bạn chỉ cần tô thêm phần đầu và chuốt đuôi chân mày để tạo ra một khuôn 
+                        mặt cân đối hơn.<br>
+                        Đối với những người mới bắt đầu với các bước trang điểm cơ bản, việc kẻ chân mày có thể 
+                        là một thách thức. Trong trường hợp này, bạn có thể sử dụng khuôn kẻ chân mày, chỉ cần 
+                        đặt khuôn lên lông mày và sử dụng chì kẻ để tô màu lên phần được định hình.
+                    </p>
+				</div>
+                <div id="buoc-6">
+					<h4>Bước 6: Kẻ eyeliner</h4>
+					<img style="width: 100%;" src="Picture/hình 70.jpeg">
+                    <p>
+                        Việc sử dụng kẻ eyeliner có tác dụng tăng cường sự sắc nét cho đôi mắt bằng cách tạo điểm 
+                        nhấn ở mí mắt. Đối với những người có mắt một mí, đây là một bước vô cùng quan trọng. Tuy 
+                        nhiên, cần phải chú ý đến độ dài của đuôi kẻ mắt. Kẻ quá dài, quá cong và quá đậm có thể 
+                        khiến đôi mắt trở nên cứng nhắc và mất đi vẻ tự nhiên.<br>
+                        Ở giai đoạn đầu, việc kẻ eyeliner có thể gặp nhiều khó khăn và kết quả có thể không đạt 
+                        được như mong muốn. Tuy nhiên, hãy kiên nhẫn và luyện tập, bạn sẽ cảm thấy tự tin hơn với 
+                        kỹ năng kẻ eyeliner của mình.<br>
+                        Trong các bước trang điểm cơ bản cho người mới, việc sử dụng chì kẻ eyeliner là lựa chọn 
+                        phổ biến. Mặc dù đường viền không mảnh mai như eyeliner dạng nước hay gel, nhưng chì kẻ 
+                        eyeliner vẫn đủ mạnh mẽ và ổn định để bạn tạo nét. Hãy mở to mắt và kẻ theo đường viền mắt. 
+                        Ở phần đuôi mắt, bạn có thể phẩy nhẹ để tạo đường cong làm điểm nhấn cho đôi mắt trở nên to 
+                        tròn và ấn tượng.
+                    </p>
+				</div>
+                <div id="buoc-7">
+					<h4>Bước 7: Phấn mắt</h4>
+					<img style="width: 100%;" src="Picture/hình 66.jpeg">
+                    <p>
+                        Phấn mắt có vai trò làm cho đôi mắt trở nên sáng hơn và là điểm nhấn thu hút sự chú ý của 
+                        người khác. Tùy thuộc vào phong cách trang điểm, bạn có thể lựa chọn màu sắc phấn mắt khác 
+                        nhau. Gam màu sáng thường mang lại vẻ trẻ trung năng động, trong khi màu tối thường tạo ra 
+                        vẻ đẹp quyến rũ.<br>
+                        Để tạo sự sắc sảo cho đôi mắt, bạn nên chọn từ 2 đến 3 gam màu khác nhau. Đối với những 
+                        người mới bắt đầu học trang điểm, bạn có thể chọn các tông màu nhẹ nhàng như màu cam đất 
+                        nhạt, nude, hoặc nâu nhạt, đây là những lựa chọn an toàn và dễ phối hợp với nhiều hoàn cảnh 
+                        khác nhau.<br>
+                        Sử dụng cọ để tán đều màu từ góc trong của mắt ra ngoài, tạo ra sự pha trộn màu sắc. Phấn 
+                        mắt nên được phối đều từ màu nhạt đến màu đậm, điều này sẽ giúp tạo ra chiều sâu cho đôi 
+                        mắt của bạn. Hãy chú ý để tạo ra hiệu ứng ấn tượng và tự nhiên cho gương mặt của bạn.
+                    </p>
+				</div>
+                <div id="buoc-8">
+					<h4>Bước 8: Chuốt mascara</h4>
+					<img style="width: 100%;" src="Picture/hình 72.jpeg">
+                    <p>
+                        Chuốt mascara là một bước quan trọng trong quy trình trang điểm mắt, giúp làm dày và cong 
+                        mi mắt, tạo ra vẻ đẹp rạng rỡ và cuốn hút. Mascara là một công cụ không thể thiếu cho bất 
+                        kỳ ai muốn có đôi mắt long lanh và quyến rũ.<br>
+                        Khi sử dụng mascara, bạn nên lựa chọn loại mascara phù hợp với nhu cầu của mình, như mascara 
+                        dài mi, tạo độ cong, hoặc làm dày mi. Ngoài ra, cũng quan trọng là chọn mascara có màu phù 
+                        hợp với màu của mi mắt và phong cách trang điểm của bạn.<br>
+                        Trước khi chuốt mascara, hãy sử dụng một cọ chuốt mi để tách các sợi mi và loại bỏ sự đọng 
+                        kết. Sau đó, bắt đầu từ gốc mi và di chuyển cọ mascara lên theo đường cong của mí mắt. Hãy 
+                        áp dụng mascara một cách nhẹ nhàng và đều đặn để tránh gắn mi lại với nhau hoặc làm vón cục.<br>
+                        Đối với những người mới bắt đầu, có thể cần thực hiện một số lần thực hành để làm quen với 
+                        việc chuốt mascara một cách chính xác và hiệu quả. Nhưng với thời gian và kỹ năng, bạn sẽ 
+                        trở nên thành thạo hơn và có thể tạo ra vẻ đẹp hoàn hảo cho đôi mắt của mình.
+                    </p>
+				</div>
+                <div id="buoc-9">
+					<h4>Bước 9: Thoa son môi</h4>
+					<img style="width: 100%;" src="Picture/hình 67.jpeg">
+                    <p>
+                        Son môi là một sản phẩm không thể thiếu trong quy trình trang điểm của chúng ta. 
+                        Một đôi môi hồng hào, tươi tắn và rạng rỡ mang lại sự tự tin khi giao tiếp với 
+                        mọi người xung quanh. Thậm chí, chỉ cần một chút son, nhiều người cũng có thể 
+                        tự tin mà không cần đến lớp trang điểm phức tạp.<br>
+                        Phụ thuộc vào phong cách và mục đích của việc trang điểm, bạn có thể chọn sử 
+                        dụng son môi màu đậm hoặc màu nhạt. Hiện nay, có rất nhiều màu son khiến phụ 
+                        nữ say mê, bao gồm hồng, đỏ tươi, đỏ thẫm, cam đất và nhiều màu sắc khác. Mỗi 
+                        màu sắc mang đến một nét đẹp và cá tính riêng biệt.<br>
+                        Một lưu ý nhỏ là trước khi thoa son, hãy sử dụng son dưỡng để bảo vệ da môi. 
+                        Điều này không chỉ giúp son môi lên màu đẹp và chuẩn, mà còn giúp dễ dàng 
+                        tẩy trang sau này vì son không được bám sâu vào môi khi đã có lớp son dưỡng bảo vệ.
+                    </p>
+				</div>
+                <div id="buoc-10">
+					<h4>Bước 10: Má hồng</h4>
+					<img style="width: 100%;" src="Picture/hình 23.jpeg">
+                    <p>
+                        Để hoàn thành quy trình trang điểm, bạn có thể sử dụng phấn má, một sản phẩm 
+                        thường được gọi là đánh má hồng với tên gọi đáng yêu. Bước này giúp cân bằng 
+                        khuôn mặt, tạo khối và làm nổi bật đường nét. Thêm một chút màu hồng sẽ làm 
+                        cho gò má trở nên đầy đặn và dễ thương hơn.<br>
+                        Sử dụng cọ trang điểm và một ít phấn má, nhẹ nhàng đánh lên hai bên má theo 
+                        hướng từ trong ra ngoài. Hãy đánh nhẹ nhàng và không áp lực quá mạnh để màu 
+                        sắc trông đẹp hơn và không gây hiệu ứng màu quá đậm.
+                    </p>
+				</div>
+                <div id="buoc-11">
+					<h4>Bước 11: Xịt khoáng</h4>
+					<img style="width: 100%;" src="Picture/hình 65.jpeg">
+                    <p>
+                        Xịt khoáng là một bước quan trọng trong quy trình trang điểm. Sau khi 
+                        hoàn thành việc trang điểm, xịt khoáng được sử dụng để cố định và làm 
+                        lâu trôi lớp trang điểm trên khuôn mặt. Nó cũng giúp làm dịu và cung 
+                        cấp độ ẩm cho da, tạo cảm giác tươi mát và tự nhiên.<br>
+                        Để sử dụng xịt khoáng, bạn có thể làm theo các bước sau:<br>
+                        Đảm bảo rằng lớp trang điểm đã hoàn thiện trên khuôn mặt của bạn.<br>
+                        Giữ chai xịt khoáng ở khoảng cách khoảng 20-30cm từ mặt.<br>
+                        Xịt nhẹ nhàng và đều khắp khuôn mặt, tránh xịt quá nhiều vào một vùng nhất định.<br>
+                        Để xịt khoáng khô tự nhiên trên da, không cần lau hoặc vỗ để đợi nó khô hoàn toàn.<br>
+                        Xịt khoáng có thể giúp lớp trang điểm của bạn lâu trôi hơn và giữ cho da mặt mềm mịn và tươi tắn. 
+                    </p>
+				</div>
+            </div>    
+		</div>
+
+	</main>
+	<hr>
+	<div id="chuyen-tab" >
+		<a style="background-color: #f2c4c4; padding: 10px;" href="Bài viết 6- Các bước trang điểm cơ bản.html">1</a>
+		<a style="padding: 10px;" href="Bài viết 7 - Trang điểm mặt.html">2</a>
+		<a style="padding: 10px;" href="Bài viết 8 - Trang điểm mắt.html">3</a>
+        <a style="padding: 10px;" href="Bài viết 9 - Trang điểm môi.html">4</a>
+	</div>
+	<br>
+	<footer>
+		<div id="chan-trang">
+			<div id="gioi-thieu">
+				<p style="font-size: 25px;"><strong>Giới thiệu</strong></p>
+				<img width="194px" height="50px" src="Logo.svg" alt="Programing">
+				<p>Không gian trực tuyến dành cho những ai đam mê làm đẹp. Chúng tôi tin rằng làm đẹp không chỉ là bề ngoài, mà còn là cách để mỗi người phụ nữ cảm nhận giá trị của bản thân, nuôi dưỡng sự tự tin và niềm vui trong cuộc sống.</p>
+			</div>
+			<div style="padding-left: 20px;">
+				<p style="font-size: 25px;"><strong>Liên hệ với chúng tôi</strong></p>
+				<div id="lien-he" style="display: flex;">
+					<a href="https://facebook.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon fb.png"></a>
+					<a href="https://instagram.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon ig.png"></a>
+					<a href="https://youtube.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon yt.png"></a>
+				</div>
+				<div style="display: flex;">
+					<img style="height: 30px; width: 30px; padding: 5px;" src="icon dt.png">
+					<p>0987.654.321</p>
+				</div>
+				<div style="display: flex;">
+					<img style="height: 30px; width: 30px; padding: 5px;" src="email.png">
+					<p>ptttrang7070@gmail.com</p>
+				</div>
+			</div>
+			<div id="dia-chi" style="padding-left: 30px;">
+				<p style="font-size: 25px;"><strong>Địa chỉ</strong></p>
+				<div style="display: flex; padding-top: 90px; ">
+				<img style="height: 30px; width: 30px; padding: 5px;" src="diachi.png">
+				<p>Trường THPT chuyên Nguyễn Chí Thanh</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p align="center";>Bản quyền © 2024 Trang web của tôi. Mọi quyền được bảo lưu.</p>
+		</div>
+		
+	</footer>
+	<div class="cursor"></div>
+	<div class="cursor2"></div>
+	<script>
+		var cursor = document.querySelector('.cursor')
+		var cursor2 = document.querySelector('.cursor2')
+
+		document.addEventListener('mousemove' , function(e){
+			cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY  + "px;";
+		});
+	</script>
+	<style>
+		hr{
+			color: white; 
+			background: white;
+			border: 0;
+			height: 1px;
+		}
+		#chuyen-tab{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#chuyen-tab a:hover{
+			display: inline-block;
+			background-color: #f2c4c4;
+		}
+		.cursor{
+			position: fixed;
+			width: 30px;
+			height: 30px;
+			border: 1px solid salmon;
+			border-radius: 50%;
+			left: 0;
+			top: 0;
+			transition: 0.1s;
+			transform: translate(-50%, -50%); /*trục x, trục y - ra giữa*/
+			pointer-events: none;
+			z-index: 1000;	/*hiển thị trên các phần tử khác*/
+		}
+		.cursor2{
+			position: fixed;
+			width: 8px;
+			height: 8px;
+			background: #edb1b3;
+			border-radius: 50%;
+			left: 0;
+			top: 0;
+			transition: 0.15s;
+			transform: translate(-50%, -50%); /*trục x, trục y - ra giữa*/
+			pointer-events: none;	
+			z-index: 1000;	/*hiển thị trên các phần tử khác*/
+		}
+		body{
+			background-color: #fde2e2;
+		}
+		main{
+			max-width: 90%;
+			margin: 0px auto;
+		}
+		#wrapper{
+			display: flex;
+		}
+		.slide-bar{
+			border: 0px solid #502d25;
+			width: 20%;
+		}
+		#muc-luc{
+			list-style-type: none;
+			border: 1px solid #502d25;
+			background-color: #ffffff;
+			opacity: 0.7; /*độ mờ*/
+            padding-left: 20px;
+		}
+		.sticky{
+			position: sticky;
+			top: 20px;
+		}
+		#noi-dung{
+			border: 0px solid #502d25;
+			padding-right: 5px;
+			padding-left: 10px;
+			width: 79%;
+			font-size: 20px;
+			max-width: 65%;
+			margin: 0px auto;
+            text-align: justify;
+		}
+		a{
+		color: #502d25;
+		text-decoration: none;
+		}	
+		#chan-trang{
+		background-color: #fbd1d1;
+		display: flex;
+		padding-left: 30px;
+		padding-right: 30px;
+		color: #502d25;
+		}
+		#gioi-thieu{
+		max-width: 40%;	
+		}
+	</style>
+</body>
+</html>

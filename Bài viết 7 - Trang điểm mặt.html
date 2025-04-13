@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty Blog</title>
+</head>
+<body>
+	<header>
+		<style> #banner{ width:100%;} </style>
+		<img id="banner" src="Header.svg" alt="Programing">
+		<a href="#banner"><p style="font-size: 25px; background-color: #f8eeec; position: fixed; top: 85%; left: 95%;">&#128285;</p></a>
+		<ul id="menu">
+			<li ><a id="logo" href="Trang chủ.html"><img src="Logo1.svg" width="194px" height="50px" alt="Programing" style="padding-top: 5px; "></a></li>
+			<li class="dropdown" style="padding-left: 100px;"><a href="Trang chủ.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Trang chủ</strong></a></li>
+			<li class="dropdown">
+				<a class="dropbtn" href="Chuyên mục Skincare.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Chuyên mục Skincare</strong></a>
+				<div class="dropdown-content">
+					<a href="Bài viết 1 - Nhận biết các loại da.html">Nhận biết các loại da</a>
+					<a href="Bài viết 2 - Skincare cho da mụn.html">Skincare cho da mụn</a>
+					<a href="Bài viết 3 - Skincare cho da dầu.html">Skincare cho da dầu</a>
+					<a href="Bài viết 4 - Skincare cho da khô.html">Skincare cho da khô</a>
+					<a href="Bài viết 5 - Skincare cho da thường.html">Skincare cho da thường</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a class="dropbtn" href="Chuyên mục Makeup.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Chuyên mục Makeup</strong></a>
+				<div class="dropdown-content">
+					<a href="Bài viết 6- Các bước trang điểm cơ bản.html">Các bước trang điểm cơ bản</a>
+					<a href="Bài viết 7 - Trang điểm mặt.html">Trang điểm mặt</a>
+					<a href="Bài viết 8 - Trang điểm mắt.html">Trang điểm mắt</a>
+					<a href="Bài viết 9 - Trang điểm môi.html">Trang điểm môi</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a class="dropbtn" href="Sản phẩm.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Sản phẩm</strong></a>
+				<div class="dropdown-content">
+					<div class="dropdown-content11">
+						<a href="Bài viết 13 - Beauty Skin.html">Beauty Skin</a>
+					</div>
+					<div class="dropdown-content22">
+						<a href="#">Beauty Face</a>
+							<div class="dropdown-content2">
+								<a href="Bài viết 10 - Beauty Face - Trang điểm mặt.html">Trang điểm mặt</a>
+								<a href="Bài viết 11 - Beauty Face - Trang điểm mắt.html">Trang điểm mắt</a>
+								<a href="Bài viết 12 - Beauty Face - Trang điểm môi.html">Trang điểm môi</a>
+							</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<style>
+			#menu{
+				list-style-type: none;
+				margin: 0px;
+				padding: 0px;	
+				overflow: hidden;
+				background-color: #ab5c72;
+				display: flex;
+			}
+			.dropbtn {
+				display: inline-block;
+				
+				
+				text-decoration: none;
+			}
+			.dropdown{
+				display: inline-block;
+				padding: 20px 40px 20px 40px;
+			}
+			.dropdown-content{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 120px;
+				z-index: 1;
+			}
+			.dropdown-content1{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 120px;
+				z-index: 1;
+				left: 120px;
+				top: 0px;
+			}
+			.dropdown-content2{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 130px;
+				z-index: 1;
+				left: 120px;
+				top: 0px;
+			}
+			.dropdown-content a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content1 a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content2 a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content a:hover{background-color: #f2c4c4;}
+			.dropdown:hover .dropdown-content {display: block;}
+			.dropdown .dropdown-content:hover .dropdown-content11{display: block;}
+			.dropdown .dropdown-content:hover .dropdown-content22{display: block;}
+			.dropdown .dropdown-content .dropdown-content11:hover .dropdown-content1 {display: block;}
+			.dropdown .dropdown-content .dropdown-content22:hover .dropdown-content2 {display: block;}
+		</style>
+		<br>
+	</header>
+	<main>
+		<div style="padding: 20px;">
+			<br>
+		</div>
+		
+		<div id="wrapper">
+			<div id="slide-bar">
+				<ul id="muc-luc" style="font-family:NotoSerifDisplay-Condensed; font-size:20px; text-align: left;">
+					<p style="font-family:NotoSerifDisplay-Condensed; font-size:25px; padding-bottom: -10px;"><strong>Mục lục</strong></p>
+					<li><a href="#buoc-1">Kem chống nắng</a></li>
+					<li><a href="#buoc-2">Kem lót</a></li>
+					<li><a href="#buoc-3">Kem nền</a></li>
+					<li><a href="#buoc-4">Che khuyết điểm</a></li>
+					<li><a href="#buoc-5">Phấn phủ</a></li>
+					<li><a href="#buoc-6">Tạo khối</a></li>
+                    <li><a href="#buoc-7">Phấn má</a></li>
+					<br>
+				</ul>
+			</div>
+			<div id="noi-dung">
+				<div><img src="Picture/hình 21.jpeg" width="100%" alt="Programing" ></div>
+					<h2>Trang điểm mặt</h2>
+					
+				<div id="buoc-1">
+					<h4>Kem chống nắng</h4>					
+					<img style="width: 100%;" src="https://p16-sign-sg.lemon8cdn.com/tos-alisg-v-a3e477-sg/osAkQEpIzuNomC1QghtFENAA8fKjAyBeYN12Uk~tplv-sdweummd6v-shrink:640:0:q50.webp?lk3s=66c60501&source=seo_middle_feed_list&x-expires=1765195200&x-signature=M5x0Bq1ARYlY2s1HW70SELpN%2BwY%3D">
+                    <p>
+                        Kem chống nắng là sản phẩm bảo vệ da khỏi tác hại của tia UV trong ánh nắng 
+                        mặt trời (gồm tia UVA, UVB và UVC) nhờ khả năng hấp thụ hoặc phản xạ các bức 
+                        xạ tia UV.<br>
+                        Tác dụng: 
+                        <ul>
+                            <li>Bảo vệ da</li>
+                            <li>Làm chậm lão hóa da</li>
+                            <li>Giảm tình trạng cháy nắng, sạm da</li>
+                            <li>Ngăn ngừa ung thư da</li>
+                            <li>Có thể thay thế kem nền</li>
+                        </ul>
+                        Phân loại:
+                            <ul>Kem chống nắng vật lý:
+                                <ul><strong>Ưu điểm:</strong>
+                                    <li>Sản phẩm phát huy hiệu quả ngay khi thoa lên da.</li>
+                                    <li>Ngăn chặn tác động của tia UVA, UVB.</li>
+                                    <li>Khá an toàn, ít gây kích ứng với da nhạy cảm.</li>
+                                    <li>Tạo lớp chống nắng bền vững, lâu dài.</li>
+                                </ul>
+                                <ul><strong>Nhược điểm:</strong>
+                                    <li>Chất kem đặc, có thể khiến da bí bách.</li>
+                                    <li>Dễ bị rửa trôi khi tiếp xúc với nước hoặc da tiết mồ hôi.</li>
+                                    <li>Phải thoa lại sau 2 - 3 giờ để phát huy hiệu quả chống nắng tốt nhất.</li>
+                                    <li>Khó tiệp màu da, dễ để lại màng trắng.</li>
+                                </ul>
+                            </ul>
+                            <ul>Kem chống nắng hóa học:
+                                <ul><strong>Ưu điểm:</strong>
+                                    <li>Chất kem thấm nhanh, ít gây cảm giác nhờn rít trên da.</li>
+                                    <li>Lượng kem cần sử dụng ít hơn nên rất tiết kiệm.</li>
+                                    <li>Dễ tiệp với màu da, có thể sử dụng để thay thế lớp nền trang điểm.</li>
+                                    <li>Đa dạng về sản phẩm.</li>
+                                </ul>
+                                <ul><strong>Nhược điểm:</strong>
+                                    <li>Dễ gây kích ứng da, nhất là da mụn, da nhạy cảm.</li>
+                                    <li>Nên bôi kem trước khi ra ngoài từ 20 - 30 phút để da có thời gian hấp thụ.</li>
+                                    <li>Lớp kem chống nắng không bền vững, phải bôi lại liên tục trong ngày.</li>
+                                </ul>
+                            </ul>
+                        
+                    </p>
+				</div>
+                <div id="buoc-2">
+					<h4>Kem lót</h4>
+					<img style="width: 100%;" src="Picture/hình 63.jpeg">
+                    <p>
+                        Kem lót (hay còn gọi là primer/ base) là bước đầu tiên khi makeup nền. Kem lót trang 
+                        điểm sẽ hỗ trợ tạo một lớp màng mỏng vừa cấp ẩm chuyên sâu, vừa giúp bảo vệ và ngăn 
+                        cách sự tiếp xúc giữa da với các loại kem nền, kem che khuyết điểm, phấn.<br>
+                        3 loại kem lót:
+                        <ul>
+                            <li><strong>Kem lót dạng lỏng (liquid)</strong>
+                                là loại phổ biến nhất, thường trong suốt và ít màu. Với thành phần chứa nhiều 
+                                dưỡng chất, kem lót dạng lỏng dễ tán, thẩm thấu nhanh và ít bị vón cục trên da. 
+                                Tuy nhiên, kem lót dạng lỏng không có độ che phủ, chỉ thường được dùng trên da 
+                                có ít khuyết điểm.
+                            </li>
+                            <li><strong>Kem lót dạng kem (cream)</strong>
+                                có nhiều tông màu và cải tiến về độ che phủ, giúp che khuyết điểm tốt hơn, phù 
+                                hợp với làn da Châu Á dễ bị tổn thương do khí hậu nóng ẩm. Dù vậy, kem lót dạng 
+                                kem dễ bị vón cục trên da.
+                            </li>
+                            <li><strong>Kem lót dạng xịt (spray)</strong>
+                                tạo ra lớp base có độ bám tốt, giúp kem nền lâu trôi trong nhiều giờ.
+                            </li>
+                        </ul>
+                    </p>
+				</div>
+                <div id="buoc-3">
+					<h4>Kem nền</h4>
+					<img style="width: 100%;" src="Picture/hình 64.jpeg">
+                    <p>
+                        Kem nền (foundation) có thể hiểu đơn giản là sản phẩm tạo lớp nền trang điểm. Tác dụng 
+                        của kem nền làm đều màu da, che phủ khuyết điểm, giúp tạo lớp da mịn màng để sẵn sàng 
+                        cho các bước makeup sau đó.<br>
+                        5 loại kem nền:
+                        <ul>
+                            <li><strong>Kem nền dạng lỏng (liquid)</strong>
+                                là loại phổ biến nhất, thường trong suốt và ít màu. Với thành phần chứa nhiều 
+                                dưỡng chất, kem lót dạng lỏng dễ tán, thẩm thấu nhanh và ít bị vón cục trên da. 
+                                Tuy nhiên, kem lót dạng lỏng không có độ che phủ, chỉ thường được dùng trên da 
+                                có ít khuyết điểm.
+                            </li>
+                            <li><strong>Kem nền dạng kem</strong>
+                                Cũng như tên gọi, loại này có chất kem đặc hơn dạng lỏng; phù hợp cho người có 
+                                da khô bởi khả năng cấp ẩm và làm mịn bề mặt da.
+                            </li>
+                            <li><strong>Phấn nền</strong>
+                                Nếu da bạn là da dầu hay nhạy cảm thì đây là loại sản phẩm 
+                                nên có. Phấn nền giúp kiềm dầu và tạo lớp nền "bền chắc" 
+                                hơn mà không làm tăng nguy cơ gây mụn.
+                            </li>
+                            <li><strong>Kem nền dạng serum</strong>
+                                Đây là một biến thể của kem nền lỏng. Do có bổ sung huyết 
+                                thanh vào thành phần nên kem nền dạng này vừa có tác dụng 
+                                trang điểm vừa có khả năng hỗ trợ dưỡng da. Kem nền kết 
+                                hợp serum phù hợp với mọi loại da.
+                            </li>
+                            <li><strong>Kem nền gốc nước (Water-base foundation)</strong>
+                                Những cô gái sở hữu làn da mụn nên cân nhắc kem nền gốc nước 
+                                vì sản phẩm có nước là một trong các thành phần chính và 
+                                thường không chứa dầu. Sản phẩm này cũng thích hợp với da 
+                                khô vì lượng “nước” trong kem sẽ đủ sức giữ ẩm cho da cả ngày.
+                            </li>
+                        </ul>
+                    </p>
+				</div>
+                <div id="buoc-4">
+					<h4>Che khuyết điểm</h4>
+					<img style="width: 100%;" src="Picture/hình 68.jpeg">
+                    <p>
+                        Kem che khuyết điểm là một trong những sản phẩm trang điểm không thể 
+                        thiếu trong túi đồ của bất kỳ ai yêu thích làm đẹp, giúp che đi các 
+                        vết thâm, mụn, sẹo, vết bớt hay bất kỳ khuyết điểm nào trên da một 
+                        cách nhanh chóng và dễ dàng.<br>
+                        3 loại che khuyết điểm:
+                        <ul>
+                            <li><strong>Dạng thỏi:</strong>
+                                Đây là loại kem có độ che phủ cao và độ bền tốt. Loại kem này 
+                                thích hợp để che các khuyết điểm nhỏ như mụn, vết sẹo, vết bớt 
+                                hay các vết thâm nhỏ. Tuy nhiên, loại kem này có thể làm khô da 
+                                và tạo nếp nhăn nếu bạn dùng quá nhiều hoặc không dưỡng ẩm đủ cho 
+                                da. Bạn cũng nên chú ý vệ sinh sản phẩm để tránh vi khuẩn gây mụn.
+                            </li>
+                            <li><strong>Dạng lỏng:</strong>
+                                Đây là loại kem có độ che phủ trung bình và độ bền khá. Loại kem 
+                                này thích hợp để che quầng thâm dưới mắt hoặc các vùng da rộng hơn. 
+                                Loại kem này có độ nhẹ nhàng và mịn màng hơn so với kem dạng thỏi, 
+                                không làm khô da hay tạo nếp nhăn. Bạn có thể dùng cọ, mút hoặc ngón 
+                                tay để tán đều kem lên da.
+                            </li>
+                            <li><strong>Dạng bút:</strong>
+                                Đây là loại kem có độ che phủ thấp và độ bền kém. Loại kem này thích 
+                                hợp để sử dụng khi bạn muốn có gương mặt tự nhiên như không trang điểm 
+                                hoặc chỉ cần che những khuyết điểm nhỏ. Loại kem này có đầu nhọn giúp 
+                                bạn dễ dàng chấm lên các điểm cần che. Bạn cũng có thể dùng loại kem 
+                                này để làm highlight cho gương mặt.
+                            </li>
+                        </ul>
+                    </p>
+				</div>
+                <div id="buoc-5">
+					<h4>Phấn phủ</h4>
+					<img style="width: 100%;" src="Picture/hình 69.jpeg">
+                    <p>
+                        Phấn phủ rất mịn, hạt phấn vô cùng nhỏ bé mà mắt thường sẽ không thể phân tách để thấy rõ 
+                        từng hạt. Chính vì vậy, khi sử dụng đánh trên da mặt, dễ dàng tạo nên lớp phấn mỏng, mềm 
+                        và mịn. Từng hạt phấn nhỏ như được thẩm thấu vào da ngay sau khi thoa, tạo cảm giác rất 
+                        tự nhiên. Đặc biệt, phấn phủ không lộ vân phấn, dù người sử dụng có dặm phấn bao nhiêu lần 
+                        trong một ngày. <br>
+                        2 loại phấn phủ:
+                        <ul>
+                            <li><strong>Phấn phủ dạng bột</strong>
+                                Phấn phủ bột là loại sản phẩm phấn phủ có dạng bột, thành phần của chúng chứa rất 
+                                nhiều khoáng chất tự nhiên, không gây kích ứng. Phấn dạng bột này có khả năng cân 
+                                bằng độ ẩm trên da rất tốt. Nhờ vào độ mịn của bột mà từng hạt phấn nhỏ li ti có 
+                                thể thẩm thấu trên da, tạo nên một lớp trang điểm vừa mỏng, vừa bật tone da một 
+                                cách tự nhiên.
+                            </li>
+                            <li><strong>Phấn phủ dạng nén</strong>
+                                Phấn phủ nén có thiết kế phần phấn được nén lại thành một khối nhỏ, vừa vặn với 
+                                khuôn của hộp phấn. Với kiểu sản phẩm này, ta sẽ thấy lớp phấn được nén chặt lại, 
+                                tạo nên một bề mặt mịn và vô cùng phẳng. 
+                            </li>
+                        </ul>
+                    </p>
+				</div>
+                <div id="buoc-6">
+					<h4>Tạo khối</h4>
+					<img style="width: 100%;" src="https://p16-sign-sg.lemon8cdn.com/tos-alisg-v-a3e477-sg/o07ctgCfkIQA9ABFBC7eNHJDQ3nAJyEkOgbqJi~tplv-sdweummd6v-shrink:640:0:q50.webp?lk3s=66c60501&source=seo_middle_feed_list&x-expires=1765195200&x-signature=QyQHh%2B7ITXwG7MGaqrcqVGBhtSM%3D">
+                    <p>
+                        Trong trang điểm, ngoài phấn mắt, má hồng hay son môi, bảng tạo khối cũng đóng vai trò không 
+                        thể thiếu, nhất là lĩnh vực trang điểm chuyên nghiệp. Bằng việc kết hợp 2 gam màu tối (contour) 
+                        và sáng (highlight), các khuyết điểm trên gương mặt có thể được cải thiện đáng kể, làm nổi bật 
+                        lên đường nét.
+                        Phân biệt tạo khối (contour) với highlight, bronzer:
+                        <ul>
+                            <li><strong>Tạo khối (contour)</strong>
+                                Đây chính xác là hành động tạo khối cho khuôn mặt bằng các loại phấn hoặc kem tối màu. 
+                                Phần được tô contour sẽ có cảm giác được thu gọn lại, trông nhu hoà và mềm mại hơn.
+                            </li>
+                            <li><strong>Highlight</strong>
+                                Bước này dùng để làm sáng và tạo điểm nhấn cho gương mặt. Đơn giản, phấn highlight có 
+                                thể thu hút sự tập trung chú ý của người nhìn vào các khu vực ưu điểm như: hốc mắt sâu, 
+                                sóng mũi cao, cằm và trán giúp chúng trông căng mịn và hút hồn hơn. Nếu đã sử dụng contour, 
+                                highlight là bước không thể thiếu để “tái cân bằng” độ đậm nhạt trên gương mặt.
+                            </li>
+                            <li><strong>Bronzer</strong>
+                                Cũng là sản phẩm phấn hoặc kem có tông màu tối, nhưng bronzer không dùng để tạo khối. Đây 
+                                là xu hướng tạo nên một làn da bánh mật “tạm thời” với hiệu ứng hơi rám nắng khỏe khoắn 
+                                đến từ Phương Tây.
+                            </li>
+                        </ul>
+                    </p>
+				</div>
+                <div id="buoc-7">
+					<h4>Má hồng</h4>
+					<img style="width: 100%;" src="Picture/hình 24.jpeg">
+                    <p>
+                        Để đánh thức sức sống rạng rỡ trên gương mặt, má hồng sẽ là "trợ thủ" 
+                        không thể thiếu của mỗi cô gái. Má hồng cũng hỗ trợ “làm nhẹ” các khuyết 
+                        điểm như làn da trắng xanh hoặc trạng thái mỏi mệt bất chợt.
+                        Có hai cách chọn má hồng hiệu quả thường được các bạn gái “truyền tai” như sau:
+                        <ul>Chọn má hồng theo tone da
+                            <li><strong>Da trắng sáng:</strong>
+                                Những cô gái sở hữu làn da trắng phù hợp gần như “tất tần tật” các gam màu. 
+                                Tuy nhiên, đỏ hồng được đánh giá là sắc màu “quốc dân” của tone da này.
+                            </li>
+                            <li><strong>Da trung bình:</strong>
+                                Với gam màu trung bình, bạn gái có thể dùng màu cam vàng tạo nét tươi tắn, 
+                                đáng yêu cho đôi má.
+                            </li>
+                            <li><strong>Da thiên vàng:</strong>
+                                Gam màu hồng sáng, cam đào sẽ giúp cân đối sắc da phổ biến này của phụ nữ châu Á.
+                            </li>
+                            <li><strong>Da sẫm màu:</strong>
+                                Các bạn có làn da bánh mật khỏe khoắn thì phù hợp với má hồng cam đào, cam 
+                                đất để làm bật vẻ cá tính và trông tự nhiên hơn.
+                            </li>
+                        </ul>
+                        <ul>Chọn má hồng theo loại da
+                            <li><strong>Da khô:</strong>
+                                Má hồng dạng kem, lỏng dễ dàng thấm vào da giúp bạn dễ thao tác trên da khô hơn. 
+                                Các loại má hồng dạng phấn bạn không nên dùng vì dễ lộ khuyết điểm của da khô và 
+                                nếp nhăn. Ngoài ra, đối với làn da khô, má hồng dạng cream sẽ hỗ trợ cấp ẩm một phần, 
+                                đồng thời giúp bền màu hơn.
+                            </li>
+                            <li><strong>Da dầu và hỗn hợp thiên dầu:</strong>
+                                Phấn má hồng là item vừa giúp khuôn mặt thêm rạng ngời, vừa có khả năng kiểm soát 
+                                bã nhờn, cân bằng độ ẩm cho da dàu tốt.
+                            </li>
+                        </ul>
+                    </p>
+				</div>
+		</div>
+
+	</main>
+	<hr>
+	<div id="chuyen-tab" >
+		<a style="padding: 10px;" href="Bài viết 6- Các bước trang điểm cơ bản.html">1</a>
+		<a style="background-color: #f2c4c4; padding: 10px;" href="Bài viết 7 - Trang điểm mặt.html">2</a>
+		<a style="padding: 10px;" href="Bài viết 8 - Trang điểm mắt.html">3</a>
+        <a style="padding: 10px;" href="Bài viết 9 - Trang điểm môi.html">4</a>
+	</div>
+	<br>
+	<footer>
+		<div id="chan-trang">
+			<div id="gioi-thieu">
+				<p style="font-size: 25px;"><strong>Giới thiệu</strong></p>
+				<img width="194px" height="50px" src="Logo.svg" alt="Programing">
+				<p>Không gian trực tuyến dành cho những ai đam mê làm đẹp. Chúng tôi tin rằng làm đẹp không chỉ là bề ngoài, mà còn là cách để mỗi người phụ nữ cảm nhận giá trị của bản thân, nuôi dưỡng sự tự tin và niềm vui trong cuộc sống.</p>
+			</div>
+			<div style="padding-left: 20px;">
+				<p style="font-size: 25px;"><strong>Liên hệ với chúng tôi</strong></p>
+				<div id="lien-he" style="display: flex;">
+					<a href="https://facebook.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon fb.png"></a>
+					<a href="https://instagram.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon ig.png"></a>
+					<a href="https://youtube.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon yt.png"></a>
+				</div>
+				<div style="display: flex;">
+					<img style="height: 30px; width: 30px; padding: 5px;" src="icon dt.png">
+					<p>0987.654.321</p>
+				</div>
+				<div style="display: flex;">
+					<img style="height: 30px; width: 30px; padding: 5px;" src="email.png">
+					<p>ptttrang7070@gmail.com</p>
+				</div>
+			</div>
+			<div id="dia-chi" style="padding-left: 30px;">
+				<p style="font-size: 25px;"><strong>Địa chỉ</strong></p>
+				<div style="display: flex; padding-top: 90px; ">
+				<img style="height: 30px; width: 30px; padding: 5px;" src="diachi.png">
+				<p>Trường THPT chuyên Nguyễn Chí Thanh</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p align="center";>Bản quyền © 2024 Trang web của tôi. Mọi quyền được bảo lưu.</p>
+		</div>
+		
+	</footer>
+	<div class="cursor"></div>
+	<div class="cursor2"></div>
+	<script>
+		var cursor = document.querySelector('.cursor')
+		var cursor2 = document.querySelector('.cursor2')
+
+		document.addEventListener('mousemove' , function(e){
+			cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY  + "px;";
+		});
+	</script>
+	<style>
+		hr{
+			color: white; 
+			background: white;
+			border: 0;
+			height: 1px;
+		}
+		#chuyen-tab{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#chuyen-tab a:hover{
+			display: inline-block;
+			background-color: #f2c4c4;
+		}
+		.cursor{
+			position: fixed;
+			width: 30px;
+			height: 30px;
+			border: 1px solid salmon;
+			border-radius: 50%;
+			left: 0;
+			top: 0;
+			transition: 0.1s;
+			transform: translate(-50%, -50%); /*trục x, trục y - ra giữa*/
+			pointer-events: none;
+			z-index: 1000;	/*hiển thị trên các phần tử khác*/
+		}
+		.cursor2{
+			position: fixed;
+			width: 8px;
+			height: 8px;
+			background: #edb1b3;
+			border-radius: 50%;
+			left: 0;
+			top: 0;
+			transition: 0.15s;
+			transform: translate(-50%, -50%); /*trục x, trục y - ra giữa*/
+			pointer-events: none;	
+			z-index: 1000;	/*hiển thị trên các phần tử khác*/
+		}
+		body{
+			background-color: #fde2e2;
+		}
+		main{
+			max-width: 90%;
+			margin: 0px auto;
+		}
+		#wrapper{
+			display: flex;
+		}
+		#slide-bar{
+			border: 0px solid #502d25;
+			width: 20%;
+			
+		}
+		#muc-luc{
+			list-style-type: none;
+			border: 1px solid #502d25;
+			background-color: #ffffff;
+			opacity: 0.7;
+            padding-left: 20px;
+			position: sticky;
+			top: 20px;
+		}
+		#noi-dung{
+			border: 0px solid #502d25;
+			padding-right: 5px;
+			padding-left: 10px;
+			width: 79%;
+			font-size: 20px;
+			max-width: 65%;
+			margin: 0px auto;
+            text-align: justify;
+		}
+		a{
+		color: #502d25;
+		text-decoration: none;
+		}
+		#chan-trang{
+		background-color: #fceff3;
+		display: flex;
+		padding-left: 30px;
+		padding-right: 30px;
+		color: #502d25;
+		}
+		#gioi-thieu{
+		max-width: 40%;	
+		}
+	</style>
+</body>
+</html>

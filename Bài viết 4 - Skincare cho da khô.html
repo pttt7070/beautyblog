@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty Blog</title>
+</head>
+<body>
+	<header>
+		<style> #banner{ width:100%;} </style>
+		<img id="banner" src="Header.svg" alt="Programing">
+		<a href="#banner"><p style="font-size: 25px; background-color: #f8eeec; position: fixed; top: 85%; left: 95%;">&#128285;</p></a>
+		<ul id="menu">
+			<li ><a id="logo" href="Trang chủ.html"><img src="Logo1.svg" width="194px" height="50px" alt="Programing" style="padding-top: 5px; "></a></li>
+			<li class="dropdown" style="padding-left: 100px;"><a href="Trang chủ.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Trang chủ</strong></a></li>
+			<li class="dropdown">
+				<a class="dropbtn" href="Chuyên mục Skincare.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Chuyên mục Skincare</strong></a>
+				<div class="dropdown-content">
+					<a href="Bài viết 1 - Nhận biết các loại da.html">Nhận biết các loại da</a>
+					<a href="Bài viết 2 - Skincare cho da mụn.html">Skincare cho da mụn</a>
+					<a href="Bài viết 3 - Skincare cho da dầu.html">Skincare cho da dầu</a>
+					<a href="Bài viết 4 - Skincare cho da khô.html">Skincare cho da khô</a>
+					<a href="Bài viết 5 - Skincare cho da thường.html">Skincare cho da thường</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a class="dropbtn" href="Chuyên mục Makeup.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Chuyên mục Makeup</strong></a>
+				<div class="dropdown-content">
+					<a href="Bài viết 6- Các bước trang điểm cơ bản.html">Các bước trang điểm cơ bản</a>
+					<a href="Bài viết 7 - Trang điểm mặt.html">Trang điểm mặt</a>
+					<a href="Bài viết 8 - Trang điểm mắt.html">Trang điểm mắt</a>
+					<a href="Bài viết 9 - Trang điểm môi.html">Trang điểm môi</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a class="dropbtn" href="Sản phẩm.html" style="font-family: NotoSerifDisplay-Condensed; color: #f8eeee;"><strong>Sản phẩm</strong></a>
+				<div class="dropdown-content">
+					<div class="dropdown-content11">
+						<a href="Bài viết 13 - Beauty Skin.html">Beauty Skin</a>
+					</div>
+					<div class="dropdown-content22">
+						<a href="#">Beauty Face</a>
+							<div class="dropdown-content2">
+								<a href="Bài viết 10 - Beauty Face - Trang điểm mặt.html">Trang điểm mặt</a>
+								<a href="Bài viết 11 - Beauty Face - Trang điểm mắt.html">Trang điểm mắt</a>
+								<a href="Bài viết 12 - Beauty Face - Trang điểm môi.html">Trang điểm môi</a>
+							</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<style>
+			#menu{
+				list-style-type: none;
+				margin: 0px;
+				padding: 0px;	
+				overflow: hidden;
+				background-color: #ab5c72;
+				display: flex;
+			}
+			.dropbtn {
+				display: inline-block;
+				text-decoration: none;
+			}
+			.dropdown{
+				display: inline-block;
+				padding: 20px 40px 20px 40px;
+			}
+			.dropdown-content{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 120px;
+				z-index: 1;
+			}
+			.dropdown-content1{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 120px;
+				z-index: 1;
+				left: 120px;
+				top: 0px;
+			}
+			.dropdown-content2{
+				display: none;
+				position: absolute;
+				background-color: #fff3f3;
+				min-width: 130px;
+				z-index: 1;
+				left: 120px;
+				top: 0px;
+			}
+			.dropdown-content a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content1 a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content2 a{
+				color: #502d25;
+				padding: 10px 12px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content a:hover{background-color: #f2c4c4;}
+			.dropdown:hover .dropdown-content {display: block;}
+			.dropdown .dropdown-content:hover .dropdown-content11{display: block;}
+			.dropdown .dropdown-content:hover .dropdown-content22{display: block;}
+			.dropdown .dropdown-content .dropdown-content11:hover .dropdown-content1 {display: block;}
+			.dropdown .dropdown-content .dropdown-content22:hover .dropdown-content2 {display: block;}
+		</style>
+		<br>
+	</header>
+	<main>
+		<div style="padding: 20px;">
+			<br>
+		</div>
+		
+		<div id="wrapper">
+			<div id="slide-bar">
+				<ul id="muc-luc" style="font-family:NotoSerifDisplay-Condensed; font-size:20px; text-align: left;">
+					<p style="font-family:NotoSerifDisplay-Condensed; font-size:25px; padding-bottom: -10px;"><strong>Mục lục</strong></p>
+					<li><a href="#buoc-1">Bước 1: Tẩy trang</a></li>
+					<li><a href="#buoc-2">Bước 2: Rửa mặt</a></li>
+					<li><a href="#buoc-3">Bước 3: Tẩy da chết</a></li>
+					<li><a href="#buoc-4">Bước 4: Dùng Toner</a></li>
+					<li><a href="#buoc-5">Bước 5: Đắp mặt nạ</a></li>
+					<li><a href="#buoc-6">Bước 6: Serum cho da khô</a></li>
+                    <li><a href="#buoc-7">Bước 7: Dưỡng ẩm</a></li>
+					<br>
+				</ul>
+			</div>
+			<div id="noi-dung">
+				<div><img src="Picture/hình 54.jpeg" width="100%" alt="Programing" ></div>
+					<h2>Skincare cho da khô</h2>
+					
+				<div id="buoc-1">
+					<h4>Bước 1: Tẩy trang</h4>					
+					<img style="width: 100%;" src="Picture/hình 76.jpeg">
+                    <p>
+                        Tẩy trang là bước đầu tiên quan trọng nhất trong quy trình skincare cho da khô. 
+                        Bởi lẽ, tẩy trang giúp loại bỏ sạch sẽ bụi bẩn, bã nhờn, dầu thừa và lớp makeup 
+                        trên da, giúp làn da khô thoáng, sạch sẽ. Với làn da khô, bạn nên ưu tiên các 
+                        sản phẩm tẩy trang có kết cấu dạng nước hoặc dạng dầu để sử dụng trên da. Đặc 
+                        biệt, sử dụng các dòng nước tẩy trang có bảng thành phần lành tính, dịu nhẹ và 
+                        an toàn với làn da cũng là cách để da khô không bị kích ứng, mẩn đỏ.
+                    </p>
+				</div>
+                <div id="buoc-2">
+					<h4>Bước 2: Rửa mặt</h4>
+					<img style="width: 100%;" src="Picture/hình 73.jpeg">
+                    <p>
+                        Khi skincare cho da khô, rửa mặt là bước không thể thiếu giúp loại bỏ một cách 
+                        triệt để bụi bẩn, bã nhờn và cặn mỹ phẩm còn lại trên da sau bước tẩy trang. 
+                        Khi chọn sữa rửa mặt cho làn da khô, nên ưu tiên các thành phần lành tính, 
+                        dịu nhẹ và tránh các sản phẩm có độ tẩy rửa cao vì sẽ làm tình trạng khô ráp 
+                        trên da thêm trầm trọng. Các dòng sản phẩm sữa rửa mặt dành riêng cho da khô 
+                        nên có độ pH ở mức cân bằng 5.5, vừa nhẹ nhàng làm sạch, vừa giữ được độ ẩm tự 
+                        nhiên trên da. 
+                    </p>
+				</div>
+                <div id="buoc-3">
+					<h4>Bước 3: Tẩy da chết</h4>
+					<img style="width: 100%;" src="Picture/hình 82.jpeg">
+                    <p>
+                        Làm sạch bằng nước tẩy trang và sữa rửa mặt là chưa đủ, nhất là với làn da khô. 
+                        Bởi lẽ, khi rửa mặt chỉ có thể lấy đi bụi bẩn, dầu thừa ở trên da mà không có 
+                        khả năng làm sạch tế bào chết. Theo thời gian, lớp tế bào chết ngày càng tích tụ 
+                        khiến làn da trông sần sùi, kém tươi tắn.<br>
+                        Vì thế, tẩy tế bào chết là cách hữu hiệu giúp làm sạch lớp sừng, tế bào da chết 
+                        để lỗ chân lông được sạch sẽ, thông thoáng và làm đều màu da của bạn. Khi tẩy tế
+                        bào chết cho da khô, nên ưu tiên các sản phẩm có chứa thành phần AHA và thực 
+                        đều đặn 1 lần mỗi tuần.
+                    </p>
+				</div>
+                <div id="buoc-4">
+					<h4>Bước 4: Dùng Toner</h4>
+					<img style="width: 100%;" src="Picture/hình 84.jpeg">
+                    <p>
+                        Skincare cho da hỗn hợp thiên khô hay da khô thì đều không thể thiếu toner/ nước 
+                        hoa hồng. Sản phẩm này có khả năng bổ sung độ ẩm nhanh chóng cho làn da sau bước 
+                        làm sạch và tẩy tế bào chết. Toner giúp làn da sạch sâu, cân bằng độ pH, làm thông
+                        thoáng lỗ chân lông để các dưỡng chất ở bước skincare cho da khô đằng sau được 
+                        phát huy tác dụng tốt nhất trên da.
+                    </p>
+				</div>
+                <div id="buoc-5">
+					<h4>Bước 5: Đắp mặt nạ</h4>
+					<img style="width: 100%;" src="Picture/hình 80.jpeg">
+                    <p>
+                        Có khá nhiều các loại mặt nạ như mặt nạ giấy, mặt nạ lột, mặt nạ rửa… trên thị 
+                        trường hiện nay. Tuy nhiên, mặt nạ giấy là sản phẩm phù hợp nhất để bổ sung vào 
+                        các bước skincare cho da khô. Mặt nạ giấy giúp cung cấp các dưỡng chất tức thì 
+                        cho làn da mềm mại, căng sáng. Sử dụng mặt nạ giấy đều đặn 2-3 lần mỗi tuần sẽ 
+                        giúp làn da khô cải thiện được tình trạng căng rát và nếp nhăn hữu hiệu.
+                    </p>
+				</div>
+                <div id="buoc-6">
+					<h4>Bước 6: Serum cho da khô</h4>
+					<img style="width: 100%;" src="Picture/hình 79.jpeg">
+                    <p>
+                        Serum với các thành phần có chứa dầu hoặc dạng tinh chất với kết cấu phân 
+                        tầng (dầu và nước) là sự lựa chọn hoàn hảo để skincare cho da khô. Đối với 
+                        sản phẩm serum có kết cấu phân tầng, tầng trên là dầu, tầng dưới là nước, 
+                        khi sử dụng, cần lắc nhẹ để 2 tầng này hoà quyện vào nhau. Các sản phẩm 
+                        serum cho da khô có tác dụng 2 trong 1, vừa cấp ẩm, vừa phục hồi các tổn 
+                        thương cũng như đẩy lùi các dấu hiệu lão hoá da.
+                    </p>
+				</div>
+                <div id="buoc-7">
+					<h4>Bước 7: Dưỡng ẩm</h4>
+					<img style="width: 100%;" src="Picture/hình 74.jpeg">
+                    <p>
+                        Kem dưỡng hay Xịt dưỡng ẩm là một trong những bước quan trọng không thể 
+                        thiếu trong skincare cho da khô. Bởi lẽ, với làn da khô, dưỡng ẩm là cách 
+                        hữu hiệu giúp duy trì làn da mịn màng, không bị khô rát, nứt nẻ. Trong chu 
+                        trình skincare cho da hỗn hợp thiên khô và da khô, kem dưỡng được xem như 
+                        lớp màng có khả năng dưỡng ẩm và khoá ẩm tối ưu cho làn da, để các dưỡng 
+                        chất không bị bốc hơi khỏi da trong 1 đêm dài. 
+                    </p>
+				</div>
+                <div id="ket-luan">
+					<p>
+						Thực hiện đầy đủ 7 bước skincare cho da khô đơn giản tại nhà như Panmela 
+                        hướng dẫn trên đây là cách hoàn hảo giúp bạn lấy lại làn da ẩm mịn, căng 
+                        sáng nhanh chóng. Ngoài ra, bạn có thể tham khảo thêm combo skincare cho 
+                        da khô để lựa chọn được những sản phẩm chuyên biệt giúp chăm sóc và bảo 
+                        vệ làn da khô một cách tốt nhất nhé. 
+					</p>
+				</div>
+		</div>
+
+	</main>
+	<hr>
+	<div id="chuyen-tab" >
+		<a style="padding: 10px;" href="Bài viết 1 - Nhận biết các loại da.html">1</a>
+		<a style="padding: 10px;" href="Bài viết 2 - Skincare cho da mụn.html">2</a>
+		<a style="padding: 10px;" href="Bài viết 3 - Skincare cho da dầu.html">3</a>
+        <a style="background-color: #f2c4c4; padding: 10px;" href="Bài viết 4 - Skincare cho da khô.html">4</a>
+		<a style="padding: 10px;" href="Bài viết 5 - Skincare cho da thường.html">5</a>
+	</div>
+	<br>
+	<footer>
+		<div id="chan-trang">
+			<div id="gioi-thieu">
+				<p style="font-size: 25px;"><strong>Giới thiệu</strong></p>
+				<img width="194px" height="50px" src="Logo.svg" alt="Programing">
+				<p>Không gian trực tuyến dành cho những ai đam mê làm đẹp. Chúng tôi tin rằng làm đẹp không chỉ là bề ngoài, mà còn là cách để mỗi người phụ nữ cảm nhận giá trị của bản thân, nuôi dưỡng sự tự tin và niềm vui trong cuộc sống.</p>
+			</div>
+			<div style="padding-left: 20px;">
+				<p style="font-size: 25px;"><strong>Liên hệ với chúng tôi</strong></p>
+				<div id="lien-he" style="display: flex;">
+					<a href="https://facebook.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon fb.png"></a>
+					<a href="https://instagram.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon ig.png"></a>
+					<a href="https://youtube.com" target="_blank"><img style="height: 30px; width: 30px; padding: 5px;" src="icon yt.png"></a>
+				</div>
+				<div style="display: flex;">
+					<img style="height: 30px; width: 30px; padding: 5px;" src="icon dt.png">
+					<p>0987.654.321</p>
+				</div>
+				<div style="display: flex;">
+					<img style="height: 30px; width: 30px; padding: 5px;" src="email.png">
+					<p>ptttrang7070@gmail.com</p>
+				</div>
+			</div>
+			<div id="dia-chi" style="padding-left: 30px;">
+				<p style="font-size: 25px;"><strong>Địa chỉ</strong></p>
+				<div style="display: flex; padding-top: 90px; ">
+				<img style="height: 30px; width: 30px; padding: 5px;" src="diachi.png">
+				<p>Trường THPT chuyên Nguyễn Chí Thanh</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p align="center";>Bản quyền © 2024 Trang web của tôi. Mọi quyền được bảo lưu.</p>
+		</div>
+		
+	</footer>
+	<div class="cursor"></div>
+	<div class="cursor2"></div>
+	<script>
+		var cursor = document.querySelector('.cursor')
+		var cursor2 = document.querySelector('.cursor2')
+
+		document.addEventListener('mousemove' , function(e){
+			cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY  + "px;";
+		});
+	</script>
+	<style>
+	.cursor{
+		position: fixed;
+		width: 30px;
+		height: 30px;
+		border: 1px solid salmon;
+		border-radius: 50%;
+		left: 0;
+		top: 0;
+		transition: 0.1s;
+		transform: translate(-50%, -50%); /*trục x, trục y - ra giữa*/
+		pointer-events: none;
+		z-index: 1000;	/*hiển thị trên các phần tử khác*/
+	}
+	.cursor2{
+		position: fixed;
+		width: 8px;
+		height: 8px;
+		background: #edb1b3;
+		border-radius: 50%;
+		left: 0;
+		top: 0;
+		transition: 0.15s;
+		transform: translate(-50%, -50%); /*trục x, trục y - ra giữa*/
+		pointer-events: none;	
+		z-index: 1000;	/*hiển thị trên các phần tử khác*/
+	}
+		body{
+			background-color: #fde2e2;
+		}
+		main{
+			max-width: 90%;
+			margin: 0px auto;
+		}
+		#wrapper{
+			display: flex;
+		}
+		#slide-bar{
+			border: 0px solid #502d25;
+			width: 20%;
+			
+		}
+		#muc-luc{
+			list-style-type: none;
+			border: 1px solid #502d25;
+			background-color: #ffffff;
+			opacity: 0.7;
+            padding-left: 20px;
+			position: sticky;
+			top: 20px;
+		}
+		#noi-dung{
+			border: 0px solid #502d25;
+			padding-right: 5px;
+			padding-left: 10px;
+			width: 79%;
+			font-size: 20px;
+			max-width: 65%;
+			margin: 0px auto;
+            text-align: justify;
+		}
+		a{
+		color: #502d25;
+		text-decoration: none;
+		}
+		hr{
+		color: #502d25; 
+		background: #502d25;
+		border: 0;
+		height: 1px;
+		}
+		#chuyen-tab{
+			display: flex; /*hiển thị thành hàng ngang*/
+			align-items: center; /*căn giữa theo chiều ngang*/
+			justify-content: center; /*căn giữa theo chiều dọc*/
+		}
+		#chuyen-tab a:hover{
+			display: inline-block; /*di chuột vào thì hiển thị dạng khối*/
+			background-color: #f2c4c4; 
+		}
+		#chan-trang{
+		background-color: #fceff3;
+		display: flex;
+		padding-left: 30px;
+		padding-right: 30px;
+		color: #502d25;
+		}
+		#gioi-thieu{
+		max-width: 40%;	
+		}
+	</style>
+</body>
+</html>
